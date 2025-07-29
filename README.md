@@ -27,8 +27,6 @@ This project implements a stealthy SSL-encrypted backdoor tool written in Python
 BACKDOOR/
 ├── server.py          # Listener/Handler running on the attacker machine
 ├── client.py          # Reverse backdoor that connects to attacker's server
-├── cert.pem           # SSL certificate (for server)
-├── key.pem            # SSL private key (for server)
 └── README.md          # Documentation
 ```
 
@@ -144,16 +142,15 @@ This tool was developed strictly for **educational**, **research**, and **author
 
 ---
 
+
 ## 📜 License
 
-This project is licensed under the **MIT License**.  
-Feel free to fork, modify, and use it for legitimate purposes.
+This project is open-source and free to use by anyone for personal or educational purposes.  
+Feel free to modify, distribute, and use the code as long as proper credit is given to the original author, **Kasula Shiva**.
 
 ---
 
-## 📷 Screenshots
-
-📡 Example Secure SSL Shell Prompt:
+## 📡 Example Secure SSL Shell Prompt:
 
 ```
 [+] Listening on 0.0.0.0:4444  
